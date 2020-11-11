@@ -1,0 +1,197 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-image: url(../img/natural-pattern.png);
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+}
+
+.clearfix::after{
+  content:'';
+  display: table;
+  clear: both;
+}
+
+a{
+  color: green;
+  text-decoration: none;
+}
+
+h1, h2{
+  color: #504741;
+  text-shadow: 2px 2px #cdcac9;
+}
+
+a:hover{
+  text-decoration: underline;
+}
+
+.container{
+  width: 1000px;
+  margin: 20px auto;
+}
+
+.float-left{
+  float: left;
+}
+
+/* Header */
+
+.header-top{
+  height: 360px;
+  background-image: url(../img/natural-header.jpg);
+  border: 10px solid white;
+  text-align: center;
+  position: relative;
+  background-size: cover;
+}
+
+.header-image-logo{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  transform: translate(-50%,-50%);
+}
+
+.header-image-logo img{
+  width: 50%
+}
+
+.header-image-logo h2{
+  color: white;
+  text-transform: uppercase;
+  text-shadow: 0 0;
+  font-size: 25px;
+}
+
+nav{
+  background-color: #666666;
+  text-align: center;
+}
+
+nav .collegamenti li{
+  display: inline-block;
+  height: 44px;
+  line-height: 44px;
+  padding: 0 10px;
+}
+
+nav .collegamenti{
+  list-style: none;
+}
+
+nav .collegamenti li a{
+  color: white;
+  text-transform: uppercase;
+}
+
+nav .collegamenti li:hover{
+  background-color: lightgrey;
+}
+
+/* Main */
+
+main{
+  margin: 10px 0;
+}
+
+.themes{
+  width: 18%;
+  padding: 5px;
+  background-color: white;
+  border-radius: 5px;
+}
+
+.themes-ico{
+  width: 20%;
+}
+
+.themes-title{
+  width: 80%;
+}
+
+ul.themes-menu{
+  list-style: none;
+}
+
+ul.themes-menu li{
+  margin: 10px 0;
+}
+
+.themes-ico i{
+  color: orange;
+  font-size: 32px;
+}
+
+.articolo-principale{
+  width: 54%;
+  margin: 0 5%;
+  background-color: white;
+  border-radius: 5px;
+  padding: 22px;
+}
+
+section.articolo-principale p{
+  line-height: 30px;
+}
+
+.articolo-principale h1{
+  text-transform: uppercase;
+  margin-bottom: 30px;
+}
+
+.widgets{
+  width: 18%;
+}
+
+.widget h2{
+  margin-bottom: 20px;
+}
+
+.widget{
+  margin-bottom: 35px;
+  border-radius: 5px;
+  padding: 20px;
+  background: white;
+}
+
+.widget p{
+  line-height: 30px;
+}
+
+/* Footer */
+
+footer{
+  border-radius: 5px;
+  padding: 3px;
+  background: white;
+  color: lightgrey;
+}
+
+hr{
+  color: lightgrey;
+}
+
+.finale{
+  text-align: center;
+  font-style: italic;
+}
+
+.lista-contatti{
+  list-style: none;
+}
+
+.lista-contatti li{
+  width: calc(100% / 3);
+  text-align:center;
+  padding: 40px;
+}
+
+.lista-contatti i{
+  font-size: 50px;
+}
